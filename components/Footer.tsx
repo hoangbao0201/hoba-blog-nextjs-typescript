@@ -6,12 +6,12 @@ const StyledWrapper = styled.div`
     width: 100%;
     border-top: 1px solid var(--border-color);
     padding: 40px 15px;
+    background-color: var(--footer-color);
 `;
 
 const StyledContainer = styled.div`
     width: 100%;
     max-width: 1200px;
-    height: var(--header-height);
     padding: 0px 15px;
     margin: auto;
 

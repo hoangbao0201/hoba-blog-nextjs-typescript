@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { iconMoon, iconSun } from "../public/icons";
+import { iconMoon, iconSun } from "../../public/icons";
 
 export interface ButtonDarkModeProps {}
 
@@ -32,7 +32,6 @@ const ButtonDarkMode = () => {
     };
 
     useEffect(() => {
-        console.log(isEnabled)
         if (isEnabled) {
             localStorage.setItem("darkmode", "true");
         } else {

@@ -70,4 +70,16 @@ input {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 6px 15px;
+
+    &.error {
+        border-color: red !important;
+        box-shadow:  0px 0px 2px red !important;
+    }
+}
+
+
+// Background color default
+
+body {
+    background-color: rgb(245, 245, 245);
 }

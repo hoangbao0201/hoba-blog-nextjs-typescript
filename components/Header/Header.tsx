@@ -1,13 +1,15 @@
 import styled from "styled-components";
 import ButtonDarkMode from "./ButtonDarkMode";
 
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Navbar";
+import Accout from "./Accout";
 
 export interface HeaderProps {}
 
 const StyledWrapper = styled.div`
     width: 100%;
     border-bottom: 1px solid var(--border-color);
+    background-color: var(--header-color);
 `;
 
 const StyledContainer = styled.div`
@@ -34,14 +36,21 @@ const Header = () => {
     return (
         <StyledWrapper>
             <StyledContainer>
+
                 <StyledGrid>
                     <Navbar />
                     Header
                 </StyledGrid>
+
                 <StyledGrid>
                     <StyledInput />
                     <ButtonDarkMode />
                 </StyledGrid>
+
+                <StyledGrid>
+                    <Accout />
+                </StyledGrid>
+
             </StyledContainer>
         </StyledWrapper>
     );

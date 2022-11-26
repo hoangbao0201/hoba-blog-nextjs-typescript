@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Footer from "../Footer";
-import Header from "../Header";
+import Header from "../Header/Header";
 
 export interface MainLayoutProps {
     children?: React.ReactNode;
